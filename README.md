@@ -77,6 +77,7 @@ Karena tidak memakai database, akun harus didaftarkan lagi setiap aplikasi ditut
 
 ## Struktur Proyek
 
+```
 KopiDanNyemil-UTS/
 ├── app/
 │   ├── build.gradle.kts
@@ -103,7 +104,7 @@ KopiDanNyemil-UTS/
 │       │       │   ├── AddressScreen.kt       # 7. Alamat pengiriman
 │       │       │   └── ConfirmationScreen.kt  # 8. Konfirmasi pesanan
 │       │       └── theme/
-│       │           ├── Color.kt, Theme.kt, Type.kt  # warna, tema, tipografi
+│       │           └── Color.kt, Theme.kt, Type.kt  # warna, tema, tipografi
 │       └── res/
 │           └── drawable/                # gambar: wallpaper, logo, foto menu, kucing
 ├── screenshots/                         # screenshot 8 layar untuk README
@@ -111,8 +112,11 @@ KopiDanNyemil-UTS/
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── README.md
+```
 
 ### Alur Navigasi
 
+```
 Splash → Sign Up → Register ┐
                   └─ Login ─┴→ Main (Home | Order | Profile) → Konfirmasi
+```
